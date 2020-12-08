@@ -1,0 +1,164 @@
+*{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#initial_book{
+    margin-top: 8vw;
+    width: 90%;
+}
+.download-button{
+    background-color: blue;
+    height: 6vh;
+    text-align: center;
+    font-size: 1vw;
+}
+.nav-link{
+    color: black;
+}
+@keyframes glowing {
+    0% {
+      background-color:blue;
+      box-shadow: 0 0 5px blue;
+    }
+    50% {
+      background-color: blue;
+      box-shadow: 0 0 20px blue;
+    }
+    100% {
+      background-color: blue;
+      box-shadow: 0 0 5px blue;
+    }
+  }
+  .btn {
+    animation: glowing 1300ms infinite;
+  }
+@media screen and (max-width: 768px) {
+    #disp{
+        display: none;}
+    #display{
+        margin-top:4vw; 
+        margin-left: 5vw;
+        width: 100%;
+        font-size: 2vw;
+    }
+    .title-image{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    #mobile{
+        height: 8%;
+        margin-left: 36vw;
+        margin-top: 4vw;
+        font-size: 3vw;
+    }
+    .navbar-brand{
+        color: rgb(5, 5, 139);
+        font-size: 5vw;
+    }
+    .feature-box{
+        padding: 10%;
+    }
+    .card{
+        margin-left: 20vw;
+        font-size: 6.5vw;
+        padding-left: 1%;
+        
+    }
+    .section-heading{
+        font-size: 6vw;
+        margin-left: 4vw;
+        
+    }
+    .testimonial-text{
+        font-size: 5vw;
+    }
+    .jumbotron{
+         margin-left: -3vw; 
+        }
+}
+
+@media screen and (min-width: 768px) {
+    #mobile{
+        display: none;
+    }
+    .title-image{
+        width:52vw;
+        border-radius: 10px;
+    }
+    .section-heading{
+        margin-left:35vw;
+    }
+    .download-button{
+        margin-left:12vw; 
+        margin-top: 2vw;
+        width: 30%;
+    }
+    .navbar-brand{
+        color: rgb(5, 5, 139);
+        font-size: 2vw;
+    }
+    .feature-box{
+        padding: 5%;
+    }
+    
+    .testimonial-text{
+        font-size: 2vw;
+    }
+    .card{
+        font-size: 1vw;
+        margin-left: 2vw;
+    }
+}
+
+.blue-bg{
+    margin-top: 5vw;
+    padding-top: 2vw;
+    background-color: rgb(5, 5, 139);
+    color: white;
+}
+.feature-title{
+    margin-top: 2vw;
+}
+section{
+    margin-top: 5vw;
+    margin-bottom: 10vw;
+}
+
+#testimonials {
+    background-color: rgb(5, 5, 139);
+    width: 80%;
+    margin: 8vw;
+    height: 40%;
+  }
+  
+  .testimonial-text {
+    
+    color: white;
+    padding: 7vw;
+  }
+  
+  .testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin-left: 46vw;
+  }
+  .subjects{
+      width: 100%;
+  }
+  .card {
+      width: 71%;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+  }  
+  .-column {
+    padding: 2% 2%;
+  }
+  .jumbotron{
+      background-color: white;
+      height: 10vh;
+      width: 100%;
+      margin-bottom: -50px;
+      font-size: 1vw;
+  }
